@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SprintRead – Read Smarter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 0.5px;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 80px 0 60px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #4b5563;
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
+    }
+
+    .btn:hover {
+      background: #1e40af;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+      margin: 60px 0;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #2563eb, #4f46e5);
+      color: white;
+      border-radius: 20px;
+      margin-top: 40px;
+    }
+
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta .btn {
+      background: white;
+      color: #2563eb;
+      box-shadow: none;
+    }
+
+    .cta .btn:hover {
+      background: #e5e7eb;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 {
+        font-size: 3.5rem;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo">SprintRead</div>
+    </header>
+
+    <section class="hero">
+      <h1>Read Faster. Learn Smarter.</h1>
+      <p>
+        SprintRead helps you boost your reading speed, improve focus,
+        and absorb more knowledge in less time. Clean, distraction-free,
+        and designed for deep learning.
+      </p>
+      <a href="YOUR_PLAY_STORE_LINK" target="_blank" class="btn">
+        Download on Google Play
+      </a>
+    </section>
+
+    <section class="features">
+      <div class="card">
+        <h3>⚡ Speed Reading Mode</h3>
+        <p>
+          Train your brain to read faster with word-by-word focus and adjustable WPM.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌙 Light & Dark Mode</h3>
+        <p>
+          Switch between light and dark themes for comfortable reading anytime.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🔒 Biometric Security</h3>
+        <p>
+          Protect your reading sessions with secure biometric authentication.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📚 Smart Bookmarking</h3>
+        <p>
+          Automatically save progress and continue reading exactly where you left off.
+        </p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Start Reading Better Today</h2>
+      <a href="YOUR_PLAY_STORE_LINK" target="_blank" class="btn">
+        Get SprintRead Now
+      </a>
+    </section>
+
+    <footer>
+      © 2026 SprintRead. All rights reserved.
+    </footer>
+  </div>
+
+</body>
+</html>
